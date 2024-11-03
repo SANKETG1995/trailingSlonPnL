@@ -1,0 +1,24 @@
+SnmSL3/66K9QduFTmFHXn7SjGV7WT7wHOS5zDPGeeISbF32TkBxXiMhXcH5isEG+2LDbn9ASODEqpVHoGcU6t2DLI9SCPZCh7iuMhfmkIteT4O/FpmPkqg==
+Enter a case (1-3) or 0 to exit: 1
+{'equity': {'enabled': True, 'net': 6.425, 'available': {'adhoc_margin': 0, 'cash': 0.1, 'opening_balance': 0.1, 'live_balance': 6.425, 'collateral': 0, 'intraday_payin': 10}, 'utilised': {'debits': 3.675, 'exposure': 0, 'm2m_realised': 0, 'm2m_unrealised': 0, 'option_premium': 0, 'payout': 0, 'span': 0, 'holding_sales': 0, 'turnover': 0, 'liquid_collateral': 0, 'stock_collateral': 0, 'equity': 0, 'delivery': 0}}, 'commodity': {'enabled': False, 'net': 0, 'available': {'adhoc_margin': 0, 'cash': 0, 'opening_balance': 0, 'live_balance': 0, 'collateral': 0, 'intraday_payin': 0}, 'utilised': {'debits': 0, 'exposure': 0, 'm2m_realised': 0, 'm2m_unrealised': 0, 'option_premium': 0, 'payout': 0, 'span': 0, 'holding_sales': 0, 'turnover': 0, 'liquid_collateral': 0, 'stock_collateral': 0, 'equity': 0, 'delivery': 0}}}
+[{'placed_by': 'MRX801', 'order_id': '230912402836712', 'exchange_order_id': '1100000028569973', 'parent_order_id': None, 'status': 'COMPLETE', 'status_message': None, 'status_message_raw': None, 'order_timestamp': '2023-09-12 12:40:01', 'exchange_update_timestamp': '2023-09-12 12:40:01', 'exchange_timestamp': '2023-09-12 12:40:01', 'variety': 'regular', 'modified': False, 'exchange': 'NSE', 'tradingsymbol': 'IDEA', 'instrument_token': 3677697, 'order_type': 'MARKET', 'transaction_type': 'BUY', 'validity': 'DAY', 'validity_ttl': 0, 'product': 'MIS', 'quantity': 1, 'disclosed_quantity': 0, 'price': 0, 'trigger_price': 0, 'average_price': 10.5, 'filled_quantity': 1, 'pending_quantity': 0, 'cancelled_quantity': 0, 'market_protection': 0, 'meta': {}, 'tag': None, 'guid': '3106Xujwqaezzihdd'}]
+{'net': [{'tradingsymbol': 'IDEA', 'exchange': 'NSE', 'instrument_token': 3677697, 'product': 'MIS', 'quantity': 1, 'overnight_quantity': 0, 'multiplier': 1, 'average_price': 10.5, 'close_price': 0, 'last_price': 10.5, 'value': -10.5, 'pnl': 0, 'm2m': 0, 'unrealised': 0, 'realised': 0, 'buy_quantity': 1, 'buy_price': 10.5, 'buy_value': 10.5, 'buy_m2m': 10.5, 'sell_quantity': 0, 'sell_price': 0, 'sell_value': 0, 'sell_m2m': 0, 'day_buy_quantity': 1, 'day_buy_price': 10.5, 'day_buy_value': 10.5, 'day_sell_quantity': 0, 'day_sell_price': 0, 'day_sell_value': 0}], 'day': [{'tradingsymbol': 'IDEA', 'exchange': 'NSE', 'instrument_token': 3677697, 'product': 'MIS', 'quantity': 1, 'overnight_quantity': 0, 'multiplier': 1, 'average_price': 10.5, 'close_price': 0, 'last_price': 10.5, 'value': -10.5, 'pnl': 0, 'm2m': 0, 'unrealised': 0, 'realised': 0, 'buy_quantity': 1, 'buy_price': 10.5, 'buy_value': 10.5, 'buy_m2m': 10.5, 'sell_quantity': 0, 'sell_price': 0, 'sell_value': 0, 'sell_m2m': 0, 'day_buy_quantity': 1, 'day_buy_price': 10.5, 'day_buy_value': 10.5, 'day_sell_quantity': 0, 'day_sell_price': 0, 'day_sell_value': 0}]}
+Enter a case (1-3) or 0 to exit:
+
+
+
+0  {'tradingsymbol': 'IDEA', 'exchange': 'NSE', '...  {'tradingsymbol': 'IDEA', 'exchange': 'NSE', '...
+Enter a case (1-3) or 0 to exit: 1
+                                                      equity                                          commodity
+enabled                                                 True                                              False
+net                                                    6.375                                                  0
+available  {'adhoc_margin': 0, 'cash': 0.1, 'opening_bala...  {'adhoc_margin': 0, 'cash': 0, 'opening_balanc...
+utilised   {'debits': 3.725, 'exposure': 0, 'm2m_realised...  {'debits': 0, 'exposure': 0, 'm2m_realised': 0...
+  placed_by         order_id exchange_order_id parent_order_id    status  ... cancelled_quantity market_protection meta   tag               guid
+0    MRX801  230912402836712  1100000028569973            None  COMPLETE  ...                  0                 0   {}  None  3106Xujwqaezzihdd
+
+
+
+
+
+
